@@ -44,10 +44,30 @@ if (navigator.geolocation){
          var day1 = data.forecast.txt_forecast.forecastday[0].title;
          var day2 = data.forecast.txt_forecast.forecastday[2].title;
          var day3 = data.forecast.txt_forecast.forecastday[4].title;
-         console.log(day1);
-         console.log(day2);
-         console.log(day3);
-         $(".ftitle").html(day1);
+         var i1 = data.forecast.txt_forecast.forecastday[0].icon_url;
+         var i2 = data.forecast.txt_forecast.forecastday[2].icon_url;
+         var i3 = data.forecast.txt_forecast.forecastday[4].icon_url;
+         var des1 = data.forecast.txt_forecast.forecastday[0].fcttext;
+         var des2 = data.forecast.txt_forecast.forecastday[2].fcttext;
+         var des3 = data.forecast.txt_forecast.forecastday[4].fcttext;
+         var temph1 = data.forecast.simpleforecast.forecastday[0].high.fahrenheit;
+         var temph2 = data.forecast.simpleforecast.forecastday[2].high.fahrenheit;
+         var temph3 = data.forecast.simpleforecast.forecastday[4].high.fahrenheit;
+         var templ1 = data.forecast.simpleforecast.forecastday[0].low.fahrenheit;
+         var templ2 = data.forecast.simpleforecast.forecastday[2].low.fahrenheit;
+         var templ3 = data.forecast.simpleforecast.forecastday[4].low.fahrenheit;
+         $("#ft1").html(day1);
+         $("#ft2").html(day2);
+         $("#ft3").html(day3);
+         $("#fi1").html("<img src='"+i1+"'/>");
+         $("#fi2").html("<img src='"+i2+"'/>");
+         $("#fi3").html("<img src='"+i3+"'/>");
+         $("#fth1").html("H:" + temph1 + "℉");
+         $("#ftl1").html("L:" + templ1 + "℉");
+         $("#fth2").html("H:" + temph2 + "℉");
+         $("#ftl2").html("L:" + templ2 + "℉");
+         $("#fth3").html("H:" + temph3 + "℉");
+         $("#ftl3").html("L:" + templ3 + "℉");
        }, "jsonp")
      }, "jsonp")
 })

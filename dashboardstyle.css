@@ -5,18 +5,10 @@
   background-color: whitesmoke;
 }
 
-.col-4{
-  width: 25%;
-  height: inherit;
-}
+.col-4{width: 25%;}
+.col-2{width: 50%;}
 
-.col-2{
-  width: 50%;
-}
-
-#tab-container{
-  margin-top: 75px;
-}
+#tab-container{margin-top: 75px;}
 
 #tab-container > div{
   padding: 10px;
@@ -31,10 +23,7 @@
   cursor: pointer;
 }
 
-#schedule-tab{
-  background-color: #DCC48E;
-}
-
+#schedule-tab{background-color: #DCC48E;}
 #harvest-tab{background-color: rgba(94, 140, 97, 1);}
 #seeding-tab{background-color: rgba(204, 221, 183, 1);}
 #planting-tab{background-color: rgba(126, 163, 204, 1);}
@@ -54,6 +43,9 @@
   justify-content: space-around;
 }
 
+.title{
+  padding: 5px;
+}
 .day{
   height: 100px;
   width: 120px;
@@ -65,4 +57,25 @@
   width: 95%;
   height: 100px;
   border: 1px solid red;
+}
+
+#forecast{
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-around;
+}
+
+.fday{
+  width: 150px;
+  height: 100px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ftemp{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }

@@ -67,8 +67,29 @@
     <div class="container" id="weather">
       <div class="title">Weather</div>
         <div id="forecast">
-          <div>
-
+          <div class="fday" id="fday1">
+            <div class="ftitle" id="ft1"></div>
+            <div class="ficon" id="fi1"></div>
+            <div class="ftemp">
+              <div class="ftemph" id="fth1"></div>
+              <div class="ftempl" id="ftl1"></div>
+            </div>
+          </div>
+          <div class="fday" id="fday2">
+            <div class="ftitle" id="ft2"></div>
+            <div class="ficon" id="fi2"></div>
+            <div class="ftemp">
+              <div class="ftemph" id="fth2"></div>
+              <div class="ftempl" id=ftl2></div>
+            </div>
+          </div>
+          <div class="fday" id="fday3">
+            <div class="ftitle" id="ft3"></div>
+            <div class="ficon" id="fi3"></div>
+            <div class="ftemp">
+              <div class="ftemph" id="fth3"></div>
+              <div class="ftempl" id="ftl3"></div>
+            </div>
           </div>
         </div>
         <div id="weather-descrition">
