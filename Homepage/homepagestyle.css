@@ -1,0 +1,59 @@
+body{
+  background-image: url("farm.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Yantramanav";
+}
+
+#main-content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 75%;
+  background-color: white;
+  opacity: .9;
+}
+
+#intro >h1{
+  margin: 20px;
+  text-align: center;
+  color: #3c3c3c;
+}
+
+#intro > h3{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#key-features{
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature-img > img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  opacity: 1;
+}
+
+.feature{
+  display: flex;
+}
+
+.box{
+  width: 20px;
+  height: 20px;
+  background-color: #3c3c3c;
+}
