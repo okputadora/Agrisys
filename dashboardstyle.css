@@ -79,3 +79,11 @@
   display: flex;
   justify-content: space-around;
 }
+
+#weather-description{
+  width: 50%;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid red;
+}
+#wd1, #wd2, #wd3{display: none;}

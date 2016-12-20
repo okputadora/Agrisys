@@ -68,8 +68,26 @@ if (navigator.geolocation){
          $("#ftl2").html("L:" + templ2 + "℉");
          $("#fth3").html("H:" + temph3 + "℉");
          $("#ftl3").html("L:" + templ3 + "℉");
+         $("#wd1").html(des1);
+         $("#wd2").html(des2);
+         $("#wd3").html(des3);
        }, "jsonp")
      }, "jsonp")
-})
-}
+   })
+ }
+ $("#fday1").hover(function(){
+   $("#wd1").css("display", "block");
+   $("#wd2").css("display", "none");
+   $("#wd3").css("display", "none");
+ });
+ $("#fday2").hover(function(){
+   $("#wd2").css("display", "block");
+   $("#wd1").css("display", "none");
+   $("#wd3").css("display", "none");
+ });
+ $("#fday3").hover(function(){
+   $("#wd3").css("display", "block");
+   $("#wd1").css("display", "none");
+   $("#wd2").css("display", "none");
+ });
 })

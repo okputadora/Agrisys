@@ -92,8 +92,10 @@
             </div>
           </div>
         </div>
-        <div id="weather-descrition">
-          <p>%weather description%</P>
+        <div id="weather-description">
+          <p id="wd1"></p>
+          <p id="wd2"></p>
+          <p id="wd3"></p>
         </div>
         <div id="weather-recs">
           <p>%weather recommendations%</P>
