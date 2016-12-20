@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Local Weather</title></title>
   <!--import google font-->
-<link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet">
   <!--import style sheet-->
   <link rel="stylesheet" type = "text/css"
    href = "dashboardstyle.css">
@@ -29,7 +29,9 @@
   </div>
   <div class="col-2" id="nav">
     <div class="container" id="tasks">
-      <div class="title">Tasks</div>
+      <div class="c-banner">
+        <div class="title">Tasks</div>
+      </div>
       <div id="week-cal">
         <div class="day" id="d1">
           <div class="dayname" id="name1">Day 1</div>
@@ -65,44 +67,50 @@
       </div>
     </div>
     <div class="container" id="weather">
-      <div class="title">Weather</div>
-        <div id="forecast">
-          <div class="fday" id="fday1">
-            <div class="ftitle" id="ft1"></div>
-            <div class="ficon" id="fi1"></div>
-            <div class="ftemp">
-              <div class="ftemph" id="fth1"></div>
-              <div class="ftempl" id="ftl1"></div>
-            </div>
-          </div>
-          <div class="fday" id="fday2">
-            <div class="ftitle" id="ft2"></div>
-            <div class="ficon" id="fi2"></div>
-            <div class="ftemp">
-              <div class="ftemph" id="fth2"></div>
-              <div class="ftempl" id=ftl2></div>
-            </div>
-          </div>
-          <div class="fday" id="fday3">
-            <div class="ftitle" id="ft3"></div>
-            <div class="ficon" id="fi3"></div>
-            <div class="ftemp">
-              <div class="ftemph" id="fth3"></div>
-              <div class="ftempl" id="ftl3"></div>
-            </div>
+      <div class="c-banner">
+        <div class="title">Weather</div>
+      </div>
+      <div id="forecast">
+        <div class="fday" id="fday1">
+          <div class="ftitle" id="ft1"></div>
+          <div class="ficon" id="fi1"></div>
+          <div class="ftemp">
+            <div class="ftemph" id="fth1"></div>
+            <div class="ftempl" id="ftl1"></div>
           </div>
         </div>
-        <div id="weather-description">
-          <p id="wd1"></p>
-          <p id="wd2"></p>
-          <p id="wd3"></p>
+        <div class="fday" id="fday2">
+          <div class="ftitle" id="ft2"></div>
+          <div class="ficon" id="fi2"></div>
+          <div class="ftemp">
+            <div class="ftemph" id="fth2"></div>
+            <div class="ftempl" id=ftl2></div>
+          </div>
         </div>
-        <div id="weather-recs">
-          <p>%weather recommendations%</P>
+        <div class="fday" id="fday3">
+          <div class="ftitle" id="ft3"></div>
+          <div class="ficon" id="fi3"></div>
+          <div class="ftemp">
+            <div class="ftemph" id="fth3"></div>
+            <div class="ftempl" id="ftl3"></div>
+          </div>
         </div>
-    </div>
+      </div>
+      <div id="weather-description">
+        <p id="wd1"></p>
+        <p id="wd2"></p>
+        <p id="wd3"></p>
+      </div>
+      <div id="weather-opts">
+        <div class="wopt">View Radar</div>
+        <div class="wopt">10 Day Forecast</div>
+        <div class="wopt">Soil Temperature</div>
+        <div class="wopt">Hisotrical Data</div>
+      </div>
+    </div>/
     <div class = "container" id="week-harvest">
-      <div class="title">Harvest at a Glance</div>
+      <div class="c-banner">
+        <div class="title">Next Harvest</div>
     </div>
   </div>
   <div class="col-4">
