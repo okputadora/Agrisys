@@ -40,7 +40,7 @@
 #planting-tab{background-color: rgba(126, 163, 204, 1);}
 #field-tab{background-color: rgba(204, 173, 143, 1);}
 
-#tasks{
+.container{
   margin-top: 75px;
   border: 1px solid red;
   width: 100%;
@@ -61,7 +61,7 @@
   margin: 20px 0 20px 0;
 }
 
-#dayDescription{
+#day-description{
   width: 95%;
   height: 100px;
   border: 1px solid red;
